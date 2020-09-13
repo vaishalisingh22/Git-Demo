@@ -96,5 +96,12 @@ public class stepDefinitions extends Utils{
 						System.out.println("This is Git Practice code");
 						System.out.println("This is Git Practice code");
 		}
+		
+		public void print()
+		{
+			System.out.println("This is Git Practice code for branching");
+			System.out.println("This is Git Practice code for branching");
+			System.out.println("This is Git Practice code for branching");
+		}
 		}
 
