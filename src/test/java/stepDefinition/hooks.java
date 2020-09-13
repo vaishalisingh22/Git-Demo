@@ -16,6 +16,7 @@ public class hooks {
 		obj.add_place_payload("vaishali","English","delhi");
 		obj.user_calls_with_http_request("AddPlaceAPI", "POST");
 		obj.verify_place_id_created_to_using("vaishali","GetPlaceAPI");
+		
 	}                                                                    
 	}
 	

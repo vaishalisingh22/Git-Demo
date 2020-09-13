@@ -91,7 +91,10 @@ public class stepDefinitions extends Utils{
 		@Given("DeletePlace Payload")
 		public void delete_place_payload() throws IOException {
 			response=given().spec(requestSpec()).body(p.deletePlacePayload(place_id));
-						
+						System.out.println("This is Git Practice code");
+						System.out.println("This is Git Practice code");
+						System.out.println("This is Git Practice code");
+						System.out.println("This is Git Practice code");
 		}
 		}
 
